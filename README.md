@@ -1,8 +1,8 @@
-# host-static-website
+# host-static-website-s3
 This repository contains Terraform code to provision infrastructure for hosting a static website on AWS, using Amazon S3 for static content storage.
 
 **Files:**
-1. [`main.tf`](https://github.com/Sebastianutcn/host-static-website-s3/blob/main/main.tf) 
+1. [`main.tf`](https://github.com/Sebastianutcn/host-static-website-s3/blob/main/main.tf) defines the infrastructure for hosting a static web app in an S3 bucket, including resources like the bucket, permissions, and static website hosting settings.
 2. [`./src/index.html`](https://github.com/Sebastianutcn/host-static-website-s3/blob/main/src/index.html) is a simple HTML file.
 3. [`./src/error.html`](https://github.com/Sebastianutcn/host-static-website-s3/blob/main/src/index.html) is a custom HTML page displayed when an error is encountered.
 
